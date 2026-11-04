@@ -1,0 +1,19 @@
+.filtro-especialidad {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.filtro-especialidad select {
+  padding: 6px 10px;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  background: var(--tarjeta);
+}
+
+.filtro-especialidad__contador {
+  color: var(--texto-suave);
+  font-size: 0.9rem;
+}

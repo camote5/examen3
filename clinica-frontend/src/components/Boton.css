@@ -1,0 +1,28 @@
+.boton {
+  padding: 8px 16px;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.boton:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+}
+
+.boton--primario {
+  background: var(--primario);
+  color: #fff;
+}
+
+.boton--secundario {
+  background: var(--tarjeta);
+  border-color: var(--borde);
+  color: var(--texto);
+}
+
+.boton--peligro {
+  background: var(--peligro);
+  color: #fff;
+}

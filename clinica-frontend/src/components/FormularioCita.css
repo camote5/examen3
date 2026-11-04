@@ -1,0 +1,21 @@
+.formulario-cita {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.formulario-cita h3,
+.formulario-cita p {
+  margin: 0;
+}
+
+.formulario-cita__sesion {
+  color: var(--texto-suave);
+  font-size: 0.9rem;
+}
+
+.formulario-cita__fila {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}

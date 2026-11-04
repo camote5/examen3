@@ -1,0 +1,33 @@
+.tabla-pacientes {
+  overflow-x: auto;
+  background: var(--tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+}
+
+.tabla-pacientes table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.tabla-pacientes th,
+.tabla-pacientes td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--borde);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.tabla-pacientes tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.tabla-pacientes th {
+  color: var(--texto-suave);
+  font-weight: 600;
+}
+
+.tabla-pacientes__vacia {
+  color: var(--texto-suave);
+}

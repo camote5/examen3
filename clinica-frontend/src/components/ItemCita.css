@@ -1,0 +1,26 @@
+.item-cita {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 12px;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+}
+
+.item-cita--seleccionada {
+  border-color: var(--primario);
+  background: var(--primario-suave);
+}
+
+.item-cita__datos {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 180px;
+  font-size: 0.9rem;
+}
+
+.item-cita__datos span {
+  color: var(--texto-suave);
+}

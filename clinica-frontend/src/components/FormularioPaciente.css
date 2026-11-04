@@ -1,0 +1,42 @@
+.formulario-paciente {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 16px;
+  background: var(--tarjeta);
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+}
+
+.formulario-paciente h3 {
+  margin: 0;
+}
+
+.campo {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.campo label {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.campo input,
+.campo select,
+.campo textarea {
+  width: 100%;
+  padding: 8px 10px;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  background: var(--tarjeta);
+}
+
+.campo small {
+  font-size: 0.85rem;
+}
+
+.formulario-paciente p {
+  margin: 0;
+}

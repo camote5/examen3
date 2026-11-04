@@ -1,0 +1,62 @@
+.encabezado {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+  background: var(--primario);
+  color: #fff;
+}
+
+.encabezado__marca {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.encabezado__logo {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 2px;
+}
+
+.encabezado__nombre {
+  margin: 0;
+  font-size: 1.4rem;
+}
+
+.encabezado__fecha {
+  margin: 0;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+.encabezado__sesion {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.encabezado__sesion label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 0.8rem;
+  opacity: 0.95;
+}
+
+.encabezado__sesion select,
+.encabezado__sesion input {
+  padding: 4px 8px;
+  border: none;
+  border-radius: 6px;
+  color: var(--texto);
+  background: #fff;
+}
+
+.encabezado__fecha::first-letter {
+  text-transform: uppercase;
+}

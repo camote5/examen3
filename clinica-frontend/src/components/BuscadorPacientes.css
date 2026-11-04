@@ -1,0 +1,14 @@
+.buscador-pacientes {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.buscador-pacientes input {
+  flex: 1;
+  min-width: 0;
+  padding: 8px 10px;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  background: var(--tarjeta);
+}

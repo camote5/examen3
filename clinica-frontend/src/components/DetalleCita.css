@@ -1,0 +1,31 @@
+.detalle-cita {
+  margin: 0;
+}
+
+.detalle-cita dl {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  gap: 6px 16px;
+  margin: 0 0 16px;
+}
+
+.detalle-cita dt {
+  color: var(--texto-suave);
+  font-weight: 600;
+}
+
+.detalle-cita dd {
+  margin: 0;
+}
+
+.detalle-cita__acciones {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.detalle-cita__nota {
+  margin: 12px 0 0;
+  color: var(--texto-suave);
+  font-size: 0.9rem;
+}
